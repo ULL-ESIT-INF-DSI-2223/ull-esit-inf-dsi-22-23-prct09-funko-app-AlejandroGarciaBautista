@@ -7,7 +7,7 @@
     "start": "tsc-watch --onSuccess \"node dist/index.js\"",
     "test": "mocha",
     "doc": "typedoc",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/lcov.info"
+    "coverage": "nyc npm test && nyc report --reporter=lcov "
   },
   "keywords": [],
   "author": "",
