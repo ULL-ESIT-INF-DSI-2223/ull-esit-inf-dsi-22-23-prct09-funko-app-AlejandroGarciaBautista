@@ -1,0 +1,26 @@
+{
+  "capacidad": 40,
+  "numElementos": 5,
+  "elementos": [
+    {
+      "peso": 10,
+      "valor": 20
+    },
+    {
+      "peso": 10,
+      "valor": 30
+    },
+    {
+      "peso": 5,
+      "valor": 40
+    },
+    {
+      "peso": 14,
+      "valor": 5
+    }, 
+    {
+      "peso": 33,
+      "valor": 4
+    }
+  ]
+}
