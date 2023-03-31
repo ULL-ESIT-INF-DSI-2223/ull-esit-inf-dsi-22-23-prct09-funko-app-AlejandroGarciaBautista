@@ -1,5 +1,5 @@
-import { ProcesarCSV } from "./ProcesarCVS";
-import { ProcesarJSON } from "./ProcesarJson";
+import { ProcesarCSV } from "./ProcesarCVS.js";
+import { ProcesarJSON } from "./ProcesarJson.js";
 
 console.log("CSV")
 const csv = new ProcesarCSV("src/Ejercicio-PE103/fichero.csv");

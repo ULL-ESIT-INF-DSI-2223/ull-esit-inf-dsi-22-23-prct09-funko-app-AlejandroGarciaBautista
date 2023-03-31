@@ -1,5 +1,5 @@
-import { Procesar } from "./Procesar";
-import { Elemento } from "./Elemento";
+import { Procesar } from "./Procesar.js";
+import { Elemento } from "./Elemento.js";
 
 /**
  * Clase para procesar datos de un JSON

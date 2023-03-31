@@ -1,4 +1,4 @@
-import { Procesar } from "./Procesar";
+import { Procesar } from "./Procesar.js";
 
 /**
  * Clase para procesar datos de un CVS
