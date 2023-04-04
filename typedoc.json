@@ -1,10 +1,7 @@
 {
   "entryPoints": [
-    "./src/*.ts",
-    "./src/Ejercicio-1/*ts",
-    "./src/Ejercicio-2/*ts",
-    "./src/Ejercicio-3/*ts",
-    "./src/Evaluacion/*ts"
+    "./src/Ejercicio-PE103/*.ts",
+    "./src/Funko-App/*.ts"
   ],
   "out": "./docs"
 }
