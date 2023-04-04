@@ -7,9 +7,6 @@ import { Coleccion } from '../../src/Funko-App/Coleccion.js'
 const funko1 = new Funko(1, "Mario", "Mario Bros con una estrella", "Pop!", "Videojuegos", "Mario Bros", 12, false, "Cabeza XXL", 30)
 const funko1_2 = new Funko(1, "Mario", "Mario Bros con una estrella", "Pop!", "Videojuegos", "Mario Bros", 22, false, "Cabeza XXL", 30)
 const funko2 = new Funko(2, "Luigi", "Luigi con una estrella", "Pop! Rides", "Videojuegos", "Mario Bros", 10, false, "Cabeza XXL", 15)
-const funko3 = new Funko(3, "Wario", "Wario con una estrella", "Pop!", "Videojuegos", "Mario Bros", 20, true, "Cabeza XXL", 100)
-const funko4 = new Funko(4, "Bowser", "Bowser Enfadado", "Pop! Rides", "Videojuegos", "Mario Bros", 11, false, "Cabeza XXL", 60)
-const usuario = new Usuario("testUsuario")
 
 describe("Tests de la clase Usuario", () => {
   it ("El constructor no debe devolver undefined", () => {
@@ -17,14 +14,17 @@ describe("Tests de la clase Usuario", () => {
   });
 
   it ("Prueba del getNombre", () => {
+    const usuario = new Usuario("testUsuario")
     expect(usuario.getNombre).to.be.eql("testUsuario")
   });
 
   it ("Prueba de getFunkos", () => {
+    const usuario = new Usuario("testUsuario")
     expect(usuario.getFunkos).to.be.eql(new Coleccion())
   });
 
   it ("Prueba de añadirFunko", () => {
+    const usuario = new Usuario("testUsuario")
     expect(usuario.añadirFunko(funko1)).to.be.eql(true);
     expect(usuario.añadirFunko(funko1)).to.be.eql(false);
     const coleccion = new Coleccion();
@@ -33,6 +33,7 @@ describe("Tests de la clase Usuario", () => {
   });
 
   it ("Prueba de modificar un funko", () => {
+    const usuario = new Usuario("testUsuario")
     expect(usuario.modificarFunko(funko1_2)).to.be.eql(true);
     expect(usuario.modificarFunko(funko2)).to.be.eql(false);
     const coleccion = new Coleccion();
@@ -41,12 +42,14 @@ describe("Tests de la clase Usuario", () => {
   });
 
   it ("Prueba eliminarFunko", () => {
+    const usuario = new Usuario("testUsuario")
     expect(usuario.eliminarFunkoXID(2)).to.be.eql(false)
     expect(usuario.eliminarFunkoXID(1)).to.be.eql(true)
     expect(usuario.getFunkos).to.be.eql(new Coleccion())
   })
 
   it ("Prueba de existeRuta", () => {
+    const usuario = new Usuario("testUsuario")
     expect(usuario.existeRuta("test")).to.be.eql(true)
     expect(usuario.existeRuta("ale")).to.be.eql(false)
   })
