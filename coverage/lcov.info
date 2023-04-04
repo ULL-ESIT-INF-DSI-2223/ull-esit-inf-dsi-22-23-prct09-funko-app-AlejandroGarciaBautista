@@ -9,7 +9,7 @@ FN:85,listar
 FN:99,mostrarFunko
 FNF:7
 FNH:5
-FNDA:12,Coleccion
+FNDA:13,Coleccion
 FNDA:4,get getTamColeccion
 FNDA:8,añadir
 FNDA:4,modificar
@@ -30,8 +30,8 @@ DA:11,1
 DA:12,1
 DA:13,1
 DA:14,1
-DA:15,12
-DA:16,12
+DA:15,13
+DA:16,13
 DA:17,1
 DA:18,1
 DA:19,1
@@ -127,7 +127,7 @@ DA:108,0
 DA:109,1
 LF:109
 LH:92
-BRDA:14,0,0,12
+BRDA:14,0,0,13
 BRDA:21,1,0,4
 BRDA:30,2,0,8
 BRDA:38,3,0,6
@@ -367,7 +367,7 @@ FN:131,mostrarFunko
 FN:140,existeRuta
 FNF:9
 FNH:7
-FNDA:6,Usuario
+FNDA:7,Usuario
 FNDA:4,get getNombre
 FNDA:4,get getFunkos
 FNDA:2,añadirFunko
@@ -375,7 +375,7 @@ FNDA:2,modificarFunko
 FNDA:2,eliminarFunkoXID
 FNDA:0,listarTusFunkos
 FNDA:0,mostrarFunko
-FNDA:6,existeRuta
+FNDA:9,existeRuta
 DA:1,1
 DA:2,1
 DA:3,1
@@ -397,16 +397,16 @@ DA:18,1
 DA:19,1
 DA:20,1
 DA:21,1
-DA:22,6
-DA:23,6
-DA:24,6
-DA:25,6
-DA:26,6
-DA:27,6
-DA:28,6
-DA:29,6
-DA:30,4
-DA:31,6
+DA:22,7
+DA:23,7
+DA:24,7
+DA:25,7
+DA:26,7
+DA:27,7
+DA:28,7
+DA:29,7
+DA:30,5
+DA:31,7
 DA:32,2
 DA:33,2
 DA:34,2
@@ -423,11 +423,11 @@ DA:44,2
 DA:45,2
 DA:46,2
 DA:47,2
-DA:48,6
+DA:48,7
 DA:49,0
 DA:50,0
 DA:51,0
-DA:52,6
+DA:52,7
 DA:53,1
 DA:54,1
 DA:55,1
@@ -516,13 +516,13 @@ DA:137,1
 DA:138,1
 DA:139,1
 DA:140,1
-DA:141,6
-DA:142,6
+DA:141,9
+DA:142,9
 DA:143,1
 LF:143
 LH:136
-BRDA:21,0,0,6
-BRDA:29,1,0,4
+BRDA:21,0,0,7
+BRDA:29,1,0,5
 BRDA:31,2,0,2
 BRDA:48,3,0,0
 BRDA:32,4,0,2
@@ -534,7 +534,7 @@ BRDA:91,9,0,2
 BRDA:92,10,0,1
 BRDA:109,11,0,2
 BRDA:110,12,0,1
-BRDA:140,13,0,6
+BRDA:140,13,0,9
 BRF:14
 BRH:13
 end_of_record

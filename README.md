@@ -1,9 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/fmDo8ROl)
-
-[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct09-funko-app-AlejandroGarciaBautista/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct09-funko-app-AlejandroGarciaBautista?branch=main)
-
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ULL-ESIT-INF-DSI-2223_ull-esit-inf-dsi-22-23-prct09-funko-app-AlejandroGarciaBautista&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ULL-ESIT-INF-DSI-2223_ull-esit-inf-dsi-22-23-prct09-funko-app-AlejandroGarciaBautista)
-
 # Informe Práctica 9 de DSI 2022-23
 
 ## Autor: Alejandro García Bautista
@@ -446,6 +440,7 @@ Los errores que he encontrado a lo largo de la práctica son:
 
  - No he podido realizar la clase Funko con los enum que se indicaban en el guion ya que no sabia bien como gestionarlo en el constructor al momento de recibir los datos desde la consola.
  - No he podido realizar los test de los método que muestran por pantalla usando el chalk. 
+ - Los tests al ejecutarse mediante una github action fallan cuando en local los tests pasan correctamente lo que da error en las demás acciones como SonarCloud y coveralls.
 
 # Bibliografía
 [Apuntes de clase](https://ull-esit-inf-dsi-2223.github.io/typescript-theory/)

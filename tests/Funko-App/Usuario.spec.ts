@@ -48,9 +48,9 @@ describe("Tests de la clase Usuario", () => {
     expect(usuario.getFunkos).to.be.eql(new Coleccion())
   })
 
-  // it ("Prueba de existeRuta", () => {
-  //   const usuario = new Usuario("testUsuario")
-  //   expect(usuario.existeRuta("test")).to.be.eql(true)
-  //   expect(usuario.existeRuta("ale")).to.be.eql(false)
-  // })
+  it ("Prueba de existeRuta", () => {
+    const usuario = new Usuario("testUsuario")
+    expect(usuario.existeRuta("test")).to.be.eql(true)
+    expect(usuario.existeRuta("ale")).to.be.eql(false)
+  })
 });
