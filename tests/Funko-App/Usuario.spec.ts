@@ -9,7 +9,7 @@ const funko1_2 = new Funko(1, "Mario", "Mario Bros con una estrella", "Pop!", "V
 const funko2 = new Funko(2, "Luigi", "Luigi con una estrella", "Pop! Rides", "Videojuegos", "Mario Bros", 10, false, "Cabeza XXL", 15)
 const funko3 = new Funko(3, "Wario", "Wario con una estrella", "Pop!", "Videojuegos", "Mario Bros", 20, true, "Cabeza XXL", 100)
 const funko4 = new Funko(4, "Bowser", "Bowser Enfadado", "Pop! Rides", "Videojuegos", "Mario Bros", 11, false, "Cabeza XXL", 60)
-const usuario = new Usuario("test")
+const usuario = new Usuario("testUsuario")
 
 describe("Tests de la clase Usuario", () => {
   it ("El constructor no debe devolver undefined", () => {
@@ -17,7 +17,7 @@ describe("Tests de la clase Usuario", () => {
   });
 
   it ("Prueba del getNombre", () => {
-    expect(usuario.getNombre).to.be.eql("test")
+    expect(usuario.getNombre).to.be.eql("testUsuario")
   });
 
   it ("Prueba de getFunkos", () => {
